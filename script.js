@@ -1,3 +1,7 @@
+function toggleMenu() {
+  const links = document.querySelector('.links');
+  links.classList.toggle('active');
+}
  
 const blogCards = document.querySelectorAll('.blog-card');
 
